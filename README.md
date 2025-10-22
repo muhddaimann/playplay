@@ -10,8 +10,34 @@ playplay/
 ├─ components/
 ├─ constants/
 ├─ contexts/
+│  └─ themeProvider.tsx
 ├─ hooks/
+├─ src/
+│  ├─ ui/
+│  │  ├─ components/
+│  │  │  ├─ button.tsx
+│  │  │  └─ textInput.tsx
+│  │  ├─ primitives/
+│  │  │  ├─ icon.tsx
+│  │  │  └─ text.tsx
+│  │  ├─ theme/
+│  │  │  ├─ createTheme.ts
+│  │  │  └─ themes.ts
+│  │  ├─ tokens/
+│  │  │  ├─ colors.ts
+│  │  │  ├─ elevation.ts
+│  │  │  ├─ motion.ts
+│  │  │  ├─ radius.ts
+│  │  │  ├─ spacing.ts
+│  │  │  └─ typography.ts
+│  │  └─ utils/
+│  │     ├─ color.ts
+│  │     └─ responsive.ts
+│  └─ ux/
+├─ .gitignore
 ├─ app.json
+├─ expo-env.d.ts
+├─ package-lock.json
 ├─ package.json
-├─ readme.md
+├─ README.md
 └─ tsconfig.json
