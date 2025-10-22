@@ -10,29 +10,33 @@ playplay/
 ├─ components/
 ├─ constants/
 ├─ contexts/
+│  ├─ notificaionProvider.tsx
 │  └─ themeProvider.tsx
 ├─ hooks/
 ├─ src/
 │  ├─ ui/
 │  │  ├─ components/
+│  │  │  ├─ modal.tsx
+│  │  │  ├─ toast.tsx
 │  │  │  ├─ button.tsx
-│  │  │  └─ textInput.tsx
+│  │  │  ├─ textInput.tsx
+│  │  │  ├─ card.tsx
+│  │  │  ├─ chip.tsx
+│  │  │  ├─ badge.tsx
+│  │  │  └─ emptyState.tsx
 │  │  ├─ primitives/
 │  │  │  ├─ icon.tsx
 │  │  │  └─ text.tsx
 │  │  ├─ theme/
 │  │  │  ├─ createTheme.ts
 │  │  │  └─ themes.ts
-│  │  ├─ tokens/
-│  │  │  ├─ colors.ts
-│  │  │  ├─ elevation.ts
-│  │  │  ├─ motion.ts
-│  │  │  ├─ radius.ts
-│  │  │  ├─ spacing.ts
-│  │  │  └─ typography.ts
-│  │  └─ utils/
-│  │     ├─ color.ts
-│  │     └─ responsive.ts
+│  │  └─ tokens/
+│  │     ├─ colors.ts
+│  │     ├─ elevation.ts
+│  │     ├─ motion.ts
+│  │     ├─ radius.ts
+│  │     ├─ spacing.ts
+│  │     └─ typography.ts
 │  └─ ux/
 ├─ .gitignore
 ├─ app.json

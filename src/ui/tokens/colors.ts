@@ -1,108 +1,106 @@
 export const lightColors = {
   // Brand Core
-  primary: '#007AFF',
-  onPrimary: '#FFFFFF',
-  primaryContainer: '#D6E4FF',
-  onPrimaryContainer: '#001E5A',
+  primary: "#5B5F97", // deep indigo violet
+  onPrimary: "#FFFFFF",
+  primaryContainer: "#E1DFF7",
+  onPrimaryContainer: "#1E1A44",
 
-  secondary: '#34C759',
-  onSecondary: '#FFFFFF',
-  secondaryContainer: '#C8FACC',
-  onSecondaryContainer: '#0F2E10',
+  secondary: "#A14F66", // rose-pink
+  onSecondary: "#FFFFFF",
+  secondaryContainer: "#F7D8E0",
+  onSecondaryContainer: "#3F1F29",
 
-  accent: '#FF9500',
-  onAccent: '#FFFFFF',
-  accentContainer: '#FFE8C2',
-  onAccentContainer: '#351C00',
+  accent: "#E94F9E", // bright playful magenta
+  onAccent: "#FFFFFF",
+  accentContainer: "#FFD5EA",
+  onAccentContainer: "#4A0A27",
 
-  // Neutral & Backgrounds
-  background: '#F9F9FB',
-  surface: '#FFFFFF',
-  surfaceVariant: '#F2F2F7',
-  onSurface: '#1C1C1E',
-  onSurfaceVariant: '#3A3A3C',
+  // Neutrals & Backgrounds
+  background: "#FAF9FB",
+  surface: "#FFFFFF",
+  surfaceVariant: "#F3F2F6",
+  onSurface: "#1A1A1E",
+  onSurfaceVariant: "#3C3C43",
 
-  // Text & Content
-  textPrimary: '#1C1C1E',
-  textSecondary: '#636366',
-  textTertiary: '#8E8E93',
-  textInverse: '#FFFFFF',
+  // Text
+  textPrimary: "#1C1C1E",
+  textSecondary: "#5E5E63",
+  textTertiary: "#8E8E93",
+  textInverse: "#FFFFFF",
 
-  // Borders & Dividers
-  border: '#D1D1D6',
-  borderStrong: '#AEAEB2',
+  // Borders
+  border: "#DDDCE3",
+  borderStrong: "#B0B0B8",
 
   // Status Colors
-  success: '#34C759',
-  onSuccess: '#FFFFFF',
-  warning: '#FF9500',
-  onWarning: '#FFFFFF',
-  error: '#FF3B30',
-  onError: '#FFFFFF',
-  info: '#5AC8FA',
-  onInfo: '#FFFFFF',
+  success: "#4CD964",
+  onSuccess: "#FFFFFF",
+  warning: "#FFB74D",
+  onWarning: "#1C1C1E",
+  error: "#FF3B30",
+  onError: "#FFFFFF",
+  info: "#64B5F6",
+  onInfo: "#FFFFFF",
 
   // Shadows & Overlays
-  shadow: '#00000033',
-  overlay: '#0000004D',
+  shadow: "#00000026",
+  overlay: "#00000033",
 
   // States
-  hover: '#E5E5EA',
-  pressed: '#D1D1D6',
-  disabled: '#F2F2F7',
+  hover: "#F1EFF8",
+  pressed: "#E6E3F2",
+  disabled: "#F4F3F6",
 };
-
-
 export const darkColors = {
   // Brand Core
-  primary: '#0A84FF',
-  onPrimary: '#FFFFFF',
-  primaryContainer: '#0040B5',
-  onPrimaryContainer: '#D6E4FF',
+  primary: "#8F93FF", // vivid violet glow
+  onPrimary: "#1C1C1E",
+  primaryContainer: "#343668",
+  onPrimaryContainer: "#E4E2FF",
 
-  secondary: '#30D158',
-  onSecondary: '#000000',
-  secondaryContainer: '#004D1E',
-  onSecondaryContainer: '#C8FACC',
+  secondary: "#FF79A3", // glowing rose-pink
+  onSecondary: "#1C1C1E",
+  secondaryContainer: "#4A2034",
+  onSecondaryContainer: "#FFD6E2",
 
-  accent: '#FF9F0A',
-  onAccent: '#000000',
-  accentContainer: '#5C2F00',
-  onAccentContainer: '#FFE8C2',
+  accent: "#FF6BC9", // neon magenta accent
+  onAccent: "#1C1C1E",
+  accentContainer: "#521E4A",
+  onAccentContainer: "#FFD8F0",
 
-  // Neutral & Backgrounds
-  background: '#1C1C1E',
-  surface: '#2C2C2E',
-  surfaceVariant: '#3A3A3C',
-  onSurface: '#E5E5EA',
-  onSurfaceVariant: '#D1D1D6',
+  // Neutrals & Backgrounds
+  background: "#16151A",
+  surface: "#1E1D24",
+  surfaceVariant: "#2C2B34",
+  onSurface: "#EDEAF4",
+  onSurfaceVariant: "#C5C2CC",
 
-  // Text & Content
-  textPrimary: '#F2F2F7',
-  textSecondary: '#C7C7CC',
-  textTertiary: '#8E8E93',
-  textInverse: '#1C1C1E',
+  // Text
+  textPrimary: "#F4F2FA",
+  textSecondary: "#B8B5C2",
+  textTertiary: "#8E8A99",
+  textInverse: "#1C1C1E",
 
-  // Borders & Dividers
-  border: '#3A3A3C',
-  borderStrong: '#545458',
+  // Borders
+  border: "#3C3B45",
+  borderStrong: "#56546A",
 
   // Status Colors
-  success: '#32D74B',
-  onSuccess: '#000000',
-  warning: '#FFD60A',
-  onWarning: '#000000',
-  error: '#FF453A',
-  onError: '#FFFFFF',
-  info: '#64D2FF',
-  onInfo: '#000000',
+  success: "#30E07B",
+  onSuccess: "#1C1C1E",
+  warning: "#FFCA6B",
+  onWarning: "#1C1C1E",
+  error: "#FF5C5C",
+  onError: "#1C1C1E",
+  info: "#6CAEFF",
+  onInfo: "#1C1C1E",
 
   // Shadows & Overlays
-  shadow: '#00000080',
-  overlay: '#00000099',
+  shadow: "#00000080",
+  overlay: "#00000099",
 
   // States
-  hover: '#3A3A3C',
-  pressed: '#48484A',
-  disabled: '#2C2C2E',
+  hover: "#2A2940",
+  pressed: "#3A3860",
+  disabled: "#2C2B34",
 };

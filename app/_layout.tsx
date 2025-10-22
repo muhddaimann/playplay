@@ -2,6 +2,7 @@ import React, { useEffect, useCallback } from "react";
 import { Slot } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { ThemeProvider } from "../contexts/themeProvider";
+import { NotificationProvider } from "../contexts/notificationProvider";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { StatusBar } from "react-native";
 
@@ -34,8 +35,10 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <ThemeProvider>
-        <StatusBar translucent backgroundColor="transparent" />
-        <Slot />
+        <NotificationProvider>
+          <StatusBar translucent backgroundColor="transparent" />
+          <Slot />
+        </NotificationProvider>
       </ThemeProvider>
     </SafeAreaProvider>
   );
